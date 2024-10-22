@@ -1,0 +1,16 @@
+<form>
+  <div class="mb-3">
+    <label for="objetivo" class="form-label">Objetivo:</label>
+    <input type="text" class="form-control" id="objetivo" (input)="nomeInput($event, 'objetivo')">
+  </div>
+  <div class="mb-3">
+    <label for="data" class="form-label">Data:</label>
+    <input type="date" class="form-control" id="data" (input)="nomeInput($event, 'data')">
+  </div>
+  <div class="mb-3">
+    <label for="recursos" class="form-label">Recursos:</label>
+    <input type="checkbox"  class="form-control" id="recursos" (input)="nomeInput($event, 'recursos')">
+    <label for="recursos">nome dos recursos</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Cadastrar</button>
+</form>

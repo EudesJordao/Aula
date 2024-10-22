@@ -1,0 +1,11 @@
+<form>
+  <div class="mb-3">
+    <label for="nome" class="form-label">Nome:</label>
+    <input type="text" class="form-control" id="nome" (input)="nomeInput($event, 'nome')">
+  </div>
+  <div class="mb-3">
+    <label for="descricao" class="form-label">Descrição:</label>
+    <input type="text" class="form-control" id="descricao" (input)="nomeInput($event, 'Descrição')">
+  </div>
+  <button type="submit" class="btn btn-primary">Cadastrar</button>
+</form>
